@@ -16,6 +16,6 @@ app.use("", authRoute);
 app.use(express.static("public/css/"));
 app.use(express.static("./storage/"));
 
-app.listen(process.env.PORT, () => {
-  console.log(`Project running at port ${process.env.PORT}`);
+app.listen(3000, () => {
+  console.log("Project running at port 3000");
 });
